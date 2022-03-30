@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Gray box class for the item description */
+.graybox {
+    height: 20px;
+    width: 40px;
+    padding: 20px;
+    border: 5px;
+    margin: 50px;
+    /* float: left; */
+    background-color: gray;
+    /* text-align: left; */
+}
+/* Gray box class for the links */
+.grayboxLinks {
+    height: 15px;
+    width: 150px;
+    padding: 20px;
+    border: 5px;
+    margin: 10px;
+    /* float: left; */
+    background-color: gray;
+    color: rgb(15, 15, 15);
+    /* text-align: left; */
+}
+
+/* Box class for the "Anthony's Microwave" headers at the top */
+.anthonybox {
+    text-align:center;
+    font-size: 40px;
+    /* position:absolute; */
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    /* padding: 20px; */
+    /* border: 5px; */
+    /* margin: 50px; */
+    background-color: #e44646;
+    color: white;
+}
+
+/* Image class for changing size; TO DO (----FIXED----): need to implement this, currently just inline styling */
+.images {
+    /* To keep scaling do this */
+    height: auto;
+    width: 50%;
+    /* Makes cells evenly spaced, but without proper scaling */
+    height: 300px;
+    width: auto;
+
+    padding: 0.5px;
+    border: 100px;
+    /* margin: 50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2.5px solid grey;
+    /* Keep the bottom part of the image frame without a border */
+    /* Obsolete, don't need borders for the images; Cells will be handled by another class */
+    /* border-top: 2.5px solid grey;
+    border-left: 2.5px solid grey;
+    border-right: 2.5px solid grey; */
+    /* float: center; */
+}
+/* Doesn't seem to be currently used */
+.imagestxt {
+    /* height: 200px;
+    width: 310px;
+    padding: 20px;
+    border: 100px; */
+    margin: 20px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2.5px solid grey;
+    background-color: #a1a1a1; */
+    /* float: center; */
+}
+
+/* Styling for the cells, encapsulates everything in borders */
+
+/* Styling for the background of the whole page */
+.bg {
+    background-color: #e4e4e4;
+}
+
+.cellDiv {
+    /* height: 200px;
+    width: 310px;
+    padding: 20px;
+    border: 100px;
+    margin: 50px; */
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border: 2.5px solid grey;
+    background-color: rgb(235,235,235);
+    /* Take this part out if other cell division style is desired */
+    height: 600px;
+    width: auto;
+}
+
+/* For centering the images in listing/user/seller pages */
+div.images {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+/* For the labels in listing/pass/user html pages */
+.labels {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

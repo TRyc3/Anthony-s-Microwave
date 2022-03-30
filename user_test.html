@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <h1 class="anthonybox">Anthony's Microwave</h1>
+    </head>
+        <body>
+            <!-- Inline styling for the whole block, making gray background -->
+            <div style= "display: block;
+            border: 2.5px solid grey;
+            background-color: #a1a1a1;
+            height: 845px;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            ">
+            <!-- Test html file to work with create_user.php -->
+
+            <form action="/anthony'smicrowave/create_user.php" 
+             method="post" enctype="multipart/form-data">
+             <label class="labels" for="name"> Full Name:</label>
+             <input class="labels" type="text" id="name" name="name"><br><br>
+             <label class="labels" for="user_pass">Password:</label>
+             <input class="labels" type="password" id="user_pass" name="user_pass"><br><br>
+             <label class="labels" for="pass_conf">Confirm Password:</label>
+             <input class="labels" type="password" id="pass_conf" name="pass_conf"><br><br>
+             <label class="labels" for="image">Profile picture:</label>
+             <input class="labels" type="file" id="image" name="image"><br><br> 
+             <input class="labels" type="submit" value="Create Account">
+            </form>
+       </div>
+    </body>
+</html>
